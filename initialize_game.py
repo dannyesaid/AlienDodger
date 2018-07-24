@@ -101,32 +101,32 @@ screen_rectangle =              screen.get_rect()
 top_left_of_screen =            ( 0, 0 )
 
 #create background and ending image
-background =                    pygame.image.load( 'background two.jpg' )
+background =                    pygame.image.load( 'Dependencies\\background two.jpg' )
 background =                    pygame.transform.scale( background, ( screen_width, screen_height ) )
-ending_image =                  pygame.image.load( 'ending image.jpg' )
+ending_image =                  pygame.image.load( 'Dependencies\\ending image.jpg' )
 ending_image =                  pygame.transform.scale( ending_image, ( screen_width, screen_height ) )
 
 #enemy
 enemy_width =                   screen_width // 8
 enemy_height =                  screen_height // 8
-enemy_image_original =          pygame.image.load( 'enemy.png' )
+enemy_image_original =          pygame.image.load( 'Dependencies\\enemy.png' )
 enemy_image =                   pygame.transform.scale( enemy_image_original, ( enemy_width, enemy_height  ) )
 enemy_group =                   pygame.sprite.Group()
 
 #hero
-hero_image_original =           pygame.image.load( 'hero.png' )
+hero_image_original =           pygame.image.load( 'Dependencies\\hero.png' )
 hero_width =                    screen_width // 8
 hero_height =                   screen_height // 8
 hero_image =                    pygame.transform.scale( hero_image_original, ( hero_width, hero_height ) )
 hero =                          hero_class( 20, screen_height - 120 ) #actual hero
 
 #hero weapon
-hero_weapon_image_original =    pygame.image.load( 'hero weapon.png' )
+hero_weapon_image_original =    pygame.image.load( 'Dependencies\\hero weapon.png' )
 hero_weapon_image =             pygame.transform.scale( hero_weapon_image_original, ( screen_width // 15, screen_height // 15 ) )
 hero_weapon_group =             pygame.sprite.Group()
 
 #sound effects
-fire_sound =                    pygame.mixer.Sound( 'shot.ogg' )
+fire_sound =                    pygame.mixer.Sound( 'Dependencies\\shot.ogg' )
 fire_sound.set_volume( 1.0 )
 
 #set pygame key repeat setting

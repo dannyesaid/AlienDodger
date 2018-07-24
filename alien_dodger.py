@@ -32,7 +32,7 @@ def create_some_enemies( enemies_to_make ):
             enemy_group.add( new_enemy )
 
 #start background music
-pygame.mixer.music.load( 'background music new.mp3' )
+pygame.mixer.music.load( 'Dependencies\\background music new.mp3' )
 pygame.mixer.music.play()
 
 #main game loop
