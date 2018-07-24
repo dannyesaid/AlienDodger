@@ -2,5 +2,4 @@
 This game was created using the Pygame library. 
 You may download the executable and dependencies file and run it on a windows PC.
 
-![alt text](https://github.com/danialesaid/Personal-Projects-Pygame-Alien-Dodger/blob/master/Image%20of%20game.png)
-
+[![Demonstration](https://github.com/danialesaid/Personal-Projects-Pygame-Alien-Dodger/blob/master/Image%20of%20game.png)](https://www.youtube.com/watch?v=6u7OlAsi2BU&feature=youtu.be)
