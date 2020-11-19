@@ -6,5 +6,5 @@ The left-right-up-down arrows move the player and the spacebar is to shoot.
 
 
 
-Please click on the picture below to see a video demonstration of the game.
+Click picture for video.
 [![Demonstration](https://github.com/danialesaid/AlienDodger/blob/master/AlienDodgerGame.PNG)](https://youtu.be/z65f4V-tNlQ)
