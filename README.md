@@ -1,4 +1,4 @@
-# Pygame-Alien-Dodger
+# AlienDodger
 This game was created using the Pygame library. 
 You may download the executable and dependencies file and run it on a windows PC.
 
